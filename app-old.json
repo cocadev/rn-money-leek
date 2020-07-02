@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Money Leek",
+    "slug": "money-leek",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "facebookScheme": "fb221717298927977",
+    "facebookAppId": "221717298927977",
+    "facebookDisplayName": "Money Leek",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/assets/*"
+    ],
+    "android":{
+      "package": "com.money.leek",
+      "versionCode": 2,
+      "config": {
+        "googleSignIn": {
+          "apiKey" : "AIzaSyDiOAYwLi50aX8fxq0uDVSdpdNb8hrS0ro",
+          "certificateHash": "B6D212FAB64E8D934FADCFD4448932D7DC7F80FA"
+        }
+      }
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
